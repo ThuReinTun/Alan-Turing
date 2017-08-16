@@ -1,0 +1,315 @@
+body {
+  margin: 0; 
+  padding: 0;
+  font-family: Helvetica, Arial, Sans-serif;
+  background-color: #E0E0E0;
+  width: device-width;
+}
+
+.header-div {
+  background-color: #2E2E2E;
+}
+.header-text-col {
+  padding: 10% 20px 0 20px;
+}
+.header-div h1 {
+  margin: 0;
+  padding: 0 0 20px 0;
+  color: #BBB;
+  font-size: 20pt;
+  font-weight: normal;
+}
+.header-div p {
+  margin: 0;
+  padding: 0;
+  color: #7D7D7D;
+  font-size: 16pt;
+}
+.header-div h2 {
+  margin: 0;
+  padding: 50px 0;
+  color: #BBB;
+  font-size: 20pt;
+  font-weight: normal;
+}
+.header-div img {
+  margin: 20px auto;
+  max-width: 100%;
+}
+
+/* body description Starts here */
+.body-description-div {
+  margin: 20px 0 0 0;
+}
+.body-description-div div {
+  background-color: #ECECEC;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 20px 20px 0 20px; /* 20px 20px 0 20px */
+  max-width: 30em;
+}
+.body-description {
+  margin: 0 auto;
+  padding: 0 0 20px 0;
+/*   background-color: #ECECEC; */
+  color: #404040;
+  font-size: 10pt;
+  border-radius: 10px;
+  
+  text-indent: 3em;
+  max-width: 30em;
+  word-spacing: .3em;
+/*   text-align: justify; */
+}
+/* Turint's Contributions */
+.body-contributions-div {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #2E2E2E;
+  color: #404040;
+  font-size: 10pt;
+  border-radius: 10px;
+}
+.body-contributions-div h1 {
+  margin: 0;
+  padding: 30px 20px 50px 20px;
+  color: #BBB;
+  font-size: 14pt;
+}
+.contribution-list {
+  list-style: none;
+  text-align: right;
+  line-height: 3em;
+  font-size: 12pt;
+}
+.contribution-list li a {
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: rgb(55, 123, 181);
+}
+.contribution-list li a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+.cbt-selected {
+  background-color: #fff;
+}
+
+.contribution-list-item {
+  padding: 20px;
+  border-radius: 10px;
+  display: none;
+}
+.contribution-list-item p {
+  text-indent: 3em;
+  padding: 10px 0 0 0;
+  font-size: 10pt;
+  text-align: justify;
+}
+.contribution-list-item p a {
+  font-size: 8pt;
+}
+.contribution-list-item img {
+  padding: 20px auto;
+  max-width: 100%;
+}
+.cbt-selected-item {
+  display: block;
+  background-color: #E0E0E0;
+}
+
+.separate-line {
+  height: 0.5pt;
+  width: 80%;
+  background-color: #fff;
+  margin: 30px auto; 
+}
+
+.timeline-div {
+  max-width: 30em;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+.timeline-div h1 {
+  margin: 0 0 50px 0;
+  padding: 0;
+  color: #BBB;
+}
+.timeline-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.timeline-icon {
+  color: #fff;
+}
+.timeline-yeartag {
+  color: #fff;
+  padding: 0 0 0 20px;
+  font-size: 12pt;
+}
+.timeline-description {
+  text-indent: 3em;
+  margin: 20px 0;
+  padding: 0;
+  color: #858585;
+  font-size: 11pt;
+}
+@media screen and (min-width: 768px) {
+  .timeline-description {
+    padding: 0 0 0 30px;
+  }
+}
+
+.timeline-afterdeath-bgdiv {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #ECECEC;
+  border-radius: 10px;
+}
+.timeline-afterdeath-div {
+  max-width: 30em;
+  margin: 20px auto;
+  padding: 20px;
+}
+.timeline-afterdeath-div h1 {
+  margin: 0 0 50px 0;
+  padding: 0;
+  color: #747474;
+  font-size: 14pt;
+}
+.timeline-afterdeath-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.timeline-afterdeath-icon {
+  color: #404040;
+}
+.timeline-afterdeath-yeartag {
+  color: #404040;
+  padding: 0 20px;
+  font-size: 12pt;
+}
+.timeline-afterdeath-description {
+  text-indent: 3em;
+  margin: 20px 0;
+  padding: 0;
+  color: #606060;
+  font-size: 11pt;
+}
+@media screen and (min-width: 768px) {
+  .timeline-afterdeath-description {
+/*     padding: 0 0 0 30px; *//*unnecessary */
+  }
+}
+.timeline-afterdeath-img {
+  margin: 20px auto;
+  max-width: 100%;
+}
+
+/* Notable awards */
+.notable-awards-div {
+  margin: 20px 0;
+  padding: 20px 0;
+}
+.notable-awards-div h1 {
+  margin: 20px auto;
+  padding: 10px 20px;
+  text-align: center;
+  
+  border-radius: 10px;
+/*   background-color: #E0E0E0; */
+/*   color: #404040; */
+  color: #747474;
+  font-size: 16pt;
+}
+.notable-awards-list {
+  list-style: none;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+}
+.notable-awards-list li {
+  margin: 0 0 20px 0;
+}
+.notable-awards-list a {
+  color: rgb(55, 123, 181);
+  text-decoration: none;
+  font-size: 14pt;
+}
+.notable-awards-list a:hover {
+  text-decoration: none;
+  font-size: 14pt;
+}
+.notable-awards-list a:visited {
+  color: rgb(55, 123, 181);
+}
+
+.quotes-div {
+  background-color: #2E2E2E;
+}
+.quotes-text-col {
+  padding: 20px;
+}
+@media screen and (min-width: 768px) {
+  .quotes-text-col {
+    padding: 50px;
+  }
+}
+.quote-line {
+  margin: 0 0 20px 0;
+  padding: 0;
+  color: #E0E0E0;
+  font-size: 10pt;
+}
+.quote-line-last {
+  margin-top: 50px;
+  margin-right: 50px;
+  text-align: right;
+}
+.quotes-div img {
+  margin: 20px auto;
+  max-width: 100%;
+}
+
+.developer-div {
+  padding: 50px 0 20px 0;
+  background-color: #1E1E1E;
+  font-size: 13pt;
+  color: #fff;
+}
+.developer-div a {
+  color: rgb(55, 123, 181);
+  text-decoration: none;
+}
+.developer-div a:hover {
+  text-decoration: none;
+}
+/* font alignments for bigger screens */
+@media screen and (min-width: 768px) {
+  .header-div h1, .header-div h2 {
+    font-size: 30pt;
+  }
+  .header-div p {
+    font-size: 12pt;
+  }
+  .body-description {
+    font-size: 12pt;
+  }
+  .body-contributions-div {
+    font-size: 12pt;
+  }
+  .body-contributions-div h1 {
+    font-size: 25pt;
+  }
+  .timeline-afterdeath-div h1 {
+    font-size: 25pt;
+  }
+  .contribution-list {
+    font-size: 20pt;
+  }
+  .contribution-list-item p {
+  }
+}
